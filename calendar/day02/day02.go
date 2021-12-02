@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	input, _ := utils.ReadLines("./..input")
+	input, _ := utils.ReadLines("./input")
 	fmt.Printf("Part one: %d\n", solvePartOne(input))
 	fmt.Printf("Part two: %d\n", solvePartTwo(input))
 }

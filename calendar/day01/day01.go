@@ -3,14 +3,10 @@ package main
 import (
 	"adventofcode2021/utils"
 	"fmt"
-	"os"
 )
 
 func main() {
-	test, _ := os.ReadFile("..test")
-	fmt.Println(test)
-
-	input, _ := utils.ReadIntegers("..input")
+	input, _ := utils.ReadIntegers("./input")
 	fmt.Println(solvePart1(input))
 	fmt.Println(solvePart2(input))
 }
